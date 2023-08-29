@@ -1,0 +1,192 @@
+
+.page-heading {
+    
+text-align: center;
+text-justify: center;
+
+color: purple;
+background-color: whitesmoke;
+
+padding: 40;
+padding-left: 70;
+padding-right: 70;
+
+margin-top: auto;
+margin-bottom: 80px;
+
+border-color: rgba(91, 0, 126, 0.532);
+border-style: solid;
+border-width: thick;
+}
+
+.puppy-fact-box {
+
+text-align: center;
+text-justify: flex-start;
+
+font-size: larger;
+
+color: rgb(107, 6, 107);
+background-color:rgb(255, 255, 255);
+
+padding: 25px;
+
+border-color: rgba(91, 0, 126, 0.532);
+border-style: solid;
+border-width: thick;
+
+margin-right:40%;
+}
+
+.puppy-fact-box-alt-side {
+
+    text-align: center;
+    text-justify: center;
+
+    
+    font-size: larger;
+    
+    color: rgb(107, 6, 107);
+    background-color:rgb(255, 255, 255);
+    
+    padding: 25px;
+    
+    border-color: rgba(91, 0, 126, 0.532);
+    border-style: solid;
+    border-width: thick;
+    
+    margin-left:40%;
+    }
+
+.background {
+
+
+background-image: url('images/background.webp');
+}
+
+.background-box {
+
+background-image: url('images/multiple-dog-walk.jpg');
+}
+
+.sad-puppy-image {
+
+width:40%;
+height: 50%;
+
+text-align: center;
+
+margin:10%;
+
+padding: 25px;
+padding-left: 18%;
+padding-right: 18%;
+
+border-color: rgba(154, 0, 214, 0.541);
+border-style: solid;
+border-width: thick;
+
+background-color: aliceblue;
+
+justify-content: center;
+align-content: center;
+display:flexbox;
+}
+
+.dog-walk {
+
+width: auto;
+height: 300px;
+
+border-color: rgba(154, 0, 214, 0.541);
+border-style: solid;
+border-width: thick;
+}
+
+.contact-box {
+
+border-color: rgba(154, 0, 214, 0.541);
+border-style: solid;
+border-width: thick;
+
+color: rgb(107, 6, 107);
+background-color:rgb(255, 255, 255);
+
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.contact-header {
+
+    font-weight: bold;
+    font-size: larger;
+
+    color: black;
+
+    padding-top: 5px;
+
+    text-align: center;
+}
+
+.contact-info {
+    
+    font-size: large;
+
+    color: rgb(184, 33, 207);
+
+    padding-left: 280px;
+
+    justify-content: space-evenly;
+
+    padding: 5px;
+
+    text-align: center;
+
+}
+
+.link-style {
+    text-decoration:none;
+  
+}
+
+.spacing-style {
+
+    justify-content: flex-start;
+    margin-bottom: 50%;
+}
+
+@media (max-width: 768px) {
+
+    .mobile-margin{
+
+        margin-top: 10%;
+    }
+    .mobile-image{
+        width:10%;
+        height:10%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .mobile-body{
+        justify-content: center;
+        width:215%;
+        height: 5%;
+    }
+    .mobile-margin-alt{
+
+        margin-right: 1%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
